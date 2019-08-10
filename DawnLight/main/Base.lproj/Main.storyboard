@@ -36,32 +36,6 @@
             </objects>
             <point key="canvasLocation" x="1730" y="47"/>
         </scene>
-        <!--homeViewController-->
-        <scene sceneID="GOm-bZ-B3h">
-            <objects>
-                <viewController id="BwI-ci-41J" userLabel="homeViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wuy-ns-NEi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXH-zp-MHy">
-                                <rect key="frame" x="103" y="686" width="110" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="5Aa-s0-fxV"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="首页" image="news_unselected" selectedImage="news_selected" id="HRD-KT-zS9"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xqM-AQ-RY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1719" y="-602"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="a9h-a5-Sbp">
             <objects>
@@ -77,7 +51,7 @@
                         </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
-                        <segue destination="BwI-ci-41J" kind="relationship" relationship="viewControllers" id="nyX-xC-kgZ"/>
+                        <segue destination="Wcn-Qn-q34" kind="relationship" relationship="viewControllers" id="nyX-xC-kgZ"/>
                         <segue destination="6gD-rv-bsE" kind="relationship" relationship="viewControllers" id="vIS-ld-ipK"/>
                         <segue destination="76J-K6-WlY" kind="relationship" relationship="viewControllers" id="3HR-8w-7EA"/>
                         <segue destination="k4u-X6-oi8" kind="relationship" relationship="viewControllers" id="8NN-L1-vOX"/>
@@ -137,15 +111,23 @@
             </objects>
             <point key="canvasLocation" x="1686" y="1443"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="4M7-uD-Akt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="Wcn-Qn-q34" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7gZ-p2-Xqr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Qk-Rf-Wa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1718.840579710145" y="-602.00892857142856"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="follow_selected" width="25" height="25"/>
-        <image name="follow_unselected" width="25" height="25"/>
+        <image name="follow_selected" width="45" height="45"/>
+        <image name="follow_unselected" width="45" height="45"/>
         <image name="live_selected" width="45" height="45"/>
         <image name="live_unuselected" width="45" height="45"/>
         <image name="my_selected" width="45" height="45"/>
         <image name="my_unselected" width="45" height="45"/>
-        <image name="news_selected" width="45" height="45"/>
-        <image name="news_unselected" width="45" height="45"/>
     </resources>
 </document>
