@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0810FDE895DC92B9D74BCFF9 /* Pods_DawnLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE6EEE6D1AF0611AA84C37 /* Pods_DawnLight.framework */; };
+		164E8BF6230106C100F788C2 /* HomeTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E8BF5230106C100F788C2 /* HomeTabController.swift */; };
 		16509D5B22FD618B00CA6E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16509D5A22FD618B00CA6E98 /* AppDelegate.swift */; };
 		16509D6022FD618B00CA6E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16509D5E22FD618B00CA6E98 /* Main.storyboard */; };
 		16509D6522FD618C00CA6E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16509D6322FD618C00CA6E98 /* LaunchScreen.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		0EBE6EEE6D1AF0611AA84C37 /* Pods_DawnLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawnLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		164E8BF5230106C100F788C2 /* HomeTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabController.swift; sourceTree = "<group>"; };
 		16509D5722FD618B00CA6E98 /* DawnLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawnLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16509D5A22FD618B00CA6E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16509D5F22FD618B00CA6E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		164E8BF22301045000F788C2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				164E8BF5230106C100F788C2 /* HomeTabController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		16509D4E22FD618B00CA6E98 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 		16D73FDC22FE9D1500791F5D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				164E8BF22301045000F788C2 /* view */,
 				16D73FD822FE9C6900791F5D /* Home.storyboard */,
 			);
 			path = Home;
@@ -93,7 +104,6 @@
 				CB5979328AF2C677F30ECF71 /* Pods-DawnLight.debug.xcconfig */,
 				54BE195021231EE2E786F93F /* Pods-DawnLight.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -221,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164E8BF6230106C100F788C2 /* HomeTabController.swift in Sources */,
 				16509D5B22FD618B00CA6E98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

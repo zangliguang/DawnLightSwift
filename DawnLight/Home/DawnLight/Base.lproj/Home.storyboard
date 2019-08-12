@@ -6,35 +6,22 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--homeViewController-->
         <scene sceneID="GOm-bZ-B3h">
             <objects>
-                <viewController id="BwI-ci-41J" userLabel="homeViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Wuy-ns-NEi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byo-VC-1E5">
-                                <rect key="frame" x="150" y="224" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="5Aa-s0-fxV"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Acx-B5-Qh3"/>
+                <viewController id="BwI-ci-41J" userLabel="homeViewController" customClass="HomeTabController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="黎光首页" id="Acx-B5-Qh3">
+                        <barButtonItem key="leftBarButtonItem" title="Logo" image="logo" width="2" id="Z6k-oZ-od0"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="search" id="Bq9-rX-Y46"/>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqM-AQ-RY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2670" y="-602"/>
+            <point key="canvasLocation" x="2669.5652173913045" y="-602.00892857142856"/>
         </scene>
         <!--首页-->
         <scene sceneID="9g1-eH-VBX">
@@ -42,9 +29,14 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9hh-hF-sWh" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="首页" image="news_unselected" selectedImage="news_selected" id="HRD-KT-zS9"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cei-5n-J1F">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="cei-5n-J1F">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -57,7 +49,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="logo" width="40" height="20"/>
         <image name="news_selected" width="45" height="45"/>
         <image name="news_unselected" width="45" height="45"/>
+        <image name="search" width="32" height="32"/>
     </resources>
 </document>

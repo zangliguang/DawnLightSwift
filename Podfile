@@ -5,6 +5,7 @@ target 'DawnLight' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'Alamofire', '~> 5.0.0-beta.5'
+  pod 'XLPagerTabStrip', '~> 9.0'
   # Pods for DawnLight
 
 end
