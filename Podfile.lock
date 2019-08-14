@@ -1,24 +1,24 @@
 PODS:
   - Alamofire (5.0.0-beta.7)
-  - AnimatedTextInput (0.5.5)
+  - TextFieldEffects (1.6.0)
   - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-beta.5)
-  - AnimatedTextInput
+  - TextFieldEffects
   - XLPagerTabStrip (~> 9.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
-    - AnimatedTextInput
+    - TextFieldEffects
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
   Alamofire: bd07938ceecad59d2492aeecb1f785a8f2721160
-  AnimatedTextInput: aadbdfa5a538a03cc9fbea700b43d2bb21a5d132
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: 317262a7f1954dafe4814b61d042b6cc0dcc5477
+PODFILE CHECKSUM: d4fda0e58e678bfe1a0c65da21380c2f561fd31d
 
 COCOAPODS: 1.7.3
