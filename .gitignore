@@ -6,6 +6,9 @@
 build/
 DerivedData/
 Pods/
+Pods
+!Podfile
+!Podfile.lock
 ## Various settings
 *.pbxuser
 !default.pbxuser

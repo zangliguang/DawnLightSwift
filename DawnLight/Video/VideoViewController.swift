@@ -7,17 +7,13 @@
 //
 
 import UIKit
-import AnimatedTextInput
+import TextFieldEffects
 class VideoViewController: UIViewController {
 
-    @IBOutlet weak var textInput: AnimatedTextInput!
-    
+    @IBOutlet weak var textInput: HoshiTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        textInput.accessibilityLabel = "standard_text_input"
-        textInput.placeHolderText = "Normal text"
-        textInput.text = "Something"
-        // Do any additional setup after loading the view.
+        textInput.placeholder="asd"
     }
     
 

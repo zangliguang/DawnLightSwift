@@ -6,6 +6,7 @@ target 'DawnLight' do
   use_frameworks!
   pod 'Alamofire', '~> 5.0.0-beta.5'
   pod 'XLPagerTabStrip', '~> 9.0'
+  pod 'TextFieldEffects'
   # Pods for DawnLight
 
 end

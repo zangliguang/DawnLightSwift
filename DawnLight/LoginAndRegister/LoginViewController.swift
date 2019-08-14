@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import AnimatedTextInput
 class LoginViewController: UIViewController {
 
    
