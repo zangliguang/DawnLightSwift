@@ -13,11 +13,16 @@
         <!--videoViewController-->
         <scene sceneID="X82-Ur-mGC">
             <objects>
-                <viewController id="6gD-rv-bsE" userLabel="videoViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="I0a-i1-dzL">
+                <viewController id="6gD-rv-bsE" userLabel="videoViewController" customClass="VideoViewController" customModule="DawnLight" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I0a-i1-dzL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ASF-dL-dPl" customClass="AnimatedTextInput" customModule="AnimatedTextInput">
+                                <rect key="frame" x="40" y="384" width="240" height="342"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBf-Xs-n1d">
                                 <rect key="frame" x="182" y="190" width="110" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -27,14 +32,16 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="SUr-2M-kEb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="视频" image="live_unuselected" selectedImage="live_selected" id="yEr-ge-xph"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="textInput" destination="ASF-dL-dPl" id="w9j-KQ-Snd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tt1-vO-4Sj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1730" y="47"/>
+            <point key="canvasLocation" x="1728.985507246377" y="46.875"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="a9h-a5-Sbp">

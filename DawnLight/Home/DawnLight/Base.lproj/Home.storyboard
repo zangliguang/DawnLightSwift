@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9hh-hF-sWh">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,7 +14,11 @@
             <objects>
                 <viewController id="BwI-ci-41J" userLabel="homeViewController" customClass="HomeTabController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="黎光首页" id="Acx-B5-Qh3">
-                        <barButtonItem key="leftBarButtonItem" title="Logo" image="logo" width="2" id="Z6k-oZ-od0"/>
+                        <barButtonItem key="leftBarButtonItem" title="Logo" image="logo" width="2" id="Z6k-oZ-od0">
+                            <connections>
+                                <segue destination="uKH-Y9-JIF" kind="show" id="Ohq-4h-BTK"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="search" id="Bq9-rX-Y46"/>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -22,6 +26,20 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqM-AQ-RY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2669.5652173913045" y="-602.00892857142856"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="BW5-iP-GIk">
+            <objects>
+                <viewController id="uKH-Y9-JIF" customClass="LoginViewController" customModule="DawnLight" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mxt-kT-UjN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h00-WT-IIN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3544.9275362318845" y="-602.00892857142856"/>
         </scene>
         <!--首页-->
         <scene sceneID="9g1-eH-VBX">
@@ -50,8 +68,8 @@
     </scenes>
     <resources>
         <image name="logo" width="40" height="20"/>
-        <image name="news_selected" width="45" height="45"/>
-        <image name="news_unselected" width="45" height="45"/>
-        <image name="search" width="32" height="32"/>
+        <image name="news_selected" width="30" height="30"/>
+        <image name="news_unselected" width="30" height="30"/>
+        <image name="search" width="16" height="16"/>
     </resources>
 </document>

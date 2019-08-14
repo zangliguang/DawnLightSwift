@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0810FDE895DC92B9D74BCFF9 /* Pods_DawnLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBE6EEE6D1AF0611AA84C37 /* Pods_DawnLight.framework */; };
+		00EB59E0FB54B54F4360DBDA /* Pods_DawnLight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D3CF4A790DF0D4BD8FCA7F /* Pods_DawnLight.framework */; };
 		164E8BF6230106C100F788C2 /* HomeTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164E8BF5230106C100F788C2 /* HomeTabController.swift */; };
 		16509D5B22FD618B00CA6E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16509D5A22FD618B00CA6E98 /* AppDelegate.swift */; };
 		16509D6022FD618B00CA6E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16509D5E22FD618B00CA6E98 /* Main.storyboard */; };
 		16509D6522FD618C00CA6E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16509D6322FD618C00CA6E98 /* LaunchScreen.storyboard */; };
+		16BA5B2F2303A7F30062164B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BA5B2E2303A7F30062164B /* LoginViewController.swift */; };
 		16D110E622FE6F8900DBD863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D110E522FE6F8900DBD863 /* Assets.xcassets */; };
+		16D5BB6B2303ECF7004BF841 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D5BB6A2303ECF7004BF841 /* VideoViewController.swift */; };
 		16D73FDA22FE9C6900791F5D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D73FD822FE9C6900791F5D /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EBE6EEE6D1AF0611AA84C37 /* Pods_DawnLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawnLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE08514F7DB162E58DBC960 /* Pods-DawnLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawnLight.debug.xcconfig"; path = "Target Support Files/Pods-DawnLight/Pods-DawnLight.debug.xcconfig"; sourceTree = "<group>"; };
 		164E8BF5230106C100F788C2 /* HomeTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabController.swift; sourceTree = "<group>"; };
 		16509D5722FD618B00CA6E98 /* DawnLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawnLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16509D5A22FD618B00CA6E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16509D5F22FD618B00CA6E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16509D6422FD618C00CA6E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16509D6622FD618C00CA6E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BA5B2E2303A7F30062164B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		16D110E522FE6F8900DBD863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16D5BB6A2303ECF7004BF841 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		16D73FD922FE9C6900791F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DawnLight/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
-		54BE195021231EE2E786F93F /* Pods-DawnLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawnLight.release.xcconfig"; path = "Target Support Files/Pods-DawnLight/Pods-DawnLight.release.xcconfig"; sourceTree = "<group>"; };
-		CB5979328AF2C677F30ECF71 /* Pods-DawnLight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawnLight.debug.xcconfig"; path = "Target Support Files/Pods-DawnLight/Pods-DawnLight.debug.xcconfig"; sourceTree = "<group>"; };
+		DB47C1FDF56EA93C8B79FFD9 /* Pods-DawnLight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawnLight.release.xcconfig"; path = "Target Support Files/Pods-DawnLight/Pods-DawnLight.release.xcconfig"; sourceTree = "<group>"; };
+		E0D3CF4A790DF0D4BD8FCA7F /* Pods_DawnLight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawnLight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0810FDE895DC92B9D74BCFF9 /* Pods_DawnLight.framework in Frameworks */,
+				00EB59E0FB54B54F4360DBDA /* Pods_DawnLight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +60,7 @@
 				16509D5922FD618B00CA6E98 /* DawnLight */,
 				16509D5822FD618B00CA6E98 /* Products */,
 				D7D8803C8DA0A545EE75D7CF /* Pods */,
-				E053164A8225CC64C90EB5A8 /* Frameworks */,
+				A0CEE62B0D2D2C5D82B7882E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,14 +75,32 @@
 		16509D5922FD618B00CA6E98 /* DawnLight */ = {
 			isa = PBXGroup;
 			children = (
-				16D73FDC22FE9D1500791F5D /* Home */,
 				16D73FDB22FE9C7900791F5D /* main */,
-				16D110E522FE6F8900DBD863 /* Assets.xcassets */,
+				16BA5B2D2303A7310062164B /* LoginAndRegister */,
+				16D73FDC22FE9D1500791F5D /* Home */,
+				16D5BB692303EC9D004BF841 /* Video */,
 				16509D5A22FD618B00CA6E98 /* AppDelegate.swift */,
+				16D110E522FE6F8900DBD863 /* Assets.xcassets */,
 				16509D6322FD618C00CA6E98 /* LaunchScreen.storyboard */,
 				16509D6622FD618C00CA6E98 /* Info.plist */,
 			);
 			path = DawnLight;
+			sourceTree = "<group>";
+		};
+		16BA5B2D2303A7310062164B /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				16BA5B2E2303A7F30062164B /* LoginViewController.swift */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		16D5BB692303EC9D004BF841 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				16D5BB6A2303ECF7004BF841 /* VideoViewController.swift */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 		16D73FDB22FE9C7900791F5D /* main */ = {
@@ -98,21 +120,21 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		A0CEE62B0D2D2C5D82B7882E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D3CF4A790DF0D4BD8FCA7F /* Pods_DawnLight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7D8803C8DA0A545EE75D7CF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB5979328AF2C677F30ECF71 /* Pods-DawnLight.debug.xcconfig */,
-				54BE195021231EE2E786F93F /* Pods-DawnLight.release.xcconfig */,
+				0FE08514F7DB162E58DBC960 /* Pods-DawnLight.debug.xcconfig */,
+				DB47C1FDF56EA93C8B79FFD9 /* Pods-DawnLight.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E053164A8225CC64C90EB5A8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0EBE6EEE6D1AF0611AA84C37 /* Pods_DawnLight.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,11 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16509D6922FD618C00CA6E98 /* Build configuration list for PBXNativeTarget "DawnLight" */;
 			buildPhases = (
-				2FFB93C197CAC67F40C3E559 /* [CP] Check Pods Manifest.lock */,
+				F71C611B063E12E2795AD034 /* [CP] Check Pods Manifest.lock */,
 				16509D5322FD618B00CA6E98 /* Sources */,
 				16509D5422FD618B00CA6E98 /* Frameworks */,
 				16509D5522FD618B00CA6E98 /* Resources */,
-				DD968A2E0635C093A0FE0FC0 /* [CP] Embed Pods Frameworks */,
+				AAD8C84E48B50658BC1EC7AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +207,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FFB93C197CAC67F40C3E559 /* [CP] Check Pods Manifest.lock */ = {
+		AAD8C84E48B50658BC1EC7AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DawnLight/Pods-DawnLight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DawnLight/Pods-DawnLight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DawnLight/Pods-DawnLight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71C611B063E12E2795AD034 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,23 +246,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD968A2E0635C093A0FE0FC0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DawnLight/Pods-DawnLight-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DawnLight/Pods-DawnLight-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DawnLight/Pods-DawnLight-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -231,7 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16BA5B2F2303A7F30062164B /* LoginViewController.swift in Sources */,
 				164E8BF6230106C100F788C2 /* HomeTabController.swift in Sources */,
+				16D5BB6B2303ECF7004BF841 /* VideoViewController.swift in Sources */,
 				16509D5B22FD618B00CA6E98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +408,7 @@
 		};
 		16509D6A22FD618C00CA6E98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB5979328AF2C677F30ECF71 /* Pods-DawnLight.debug.xcconfig */;
+			baseConfigurationReference = 0FE08514F7DB162E58DBC960 /* Pods-DawnLight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,7 +426,7 @@
 		};
 		16509D6B22FD618C00CA6E98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54BE195021231EE2E786F93F /* Pods-DawnLight.release.xcconfig */;
+			baseConfigurationReference = DB47C1FDF56EA93C8B79FFD9 /* Pods-DawnLight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
