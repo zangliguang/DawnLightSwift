@@ -12,28 +12,28 @@ import XLPagerTabStrip
 class HomeTabController: ButtonBarPagerTabStripViewController{
 
     override func viewDidLoad() {
-        settings.style.buttonBarBackgroundColor = .red
-        settings.style.buttonBarItemBackgroundColor = .clear
-        settings.style.selectedBarBackgroundColor = UIColor(red: 234/255.0, green: 234/255.0, blue: 234/255.0, alpha: 1.0)
-        settings.style.selectedBarHeight = 4.0
-        settings.style.buttonBarMinimumLineSpacing = 0
-        settings.style.buttonBarItemTitleColor = .black
-        settings.style.buttonBarItemsShouldFillAvailableWidth = true
-        settings.style.buttonBarLeftContentInset = 0
-        settings.style.buttonBarRightContentInset = 0
-        changeCurrentIndexProgressive = { (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
-            guard changeCurrentIndex == true else { return }
-            oldCell?.label.textColor = UIColor(red: 138/255.0, green: 138/255.0, blue: 144/255.0, alpha: 1.0)
-            newCell?.label.textColor = .white
-        }
+//        settings.style.buttonBarBackgroundColor = .red
+//        settings.style.buttonBarItemBackgroundColor = .clear
+//        settings.style.selectedBarBackgroundColor = UIColor(red: 234/255.0, green: 234/255.0, blue: 234/255.0, alpha: 1.0)
+//        settings.style.selectedBarHeight = 4.0
+//        settings.style.buttonBarMinimumLineSpacing = 0
+//        settings.style.buttonBarItemTitleColor = .black
+//        settings.style.buttonBarItemsShouldFillAvailableWidth = true
+//        settings.style.buttonBarLeftContentInset = 0
+//        settings.style.buttonBarRightContentInset = 0
+//        changeCurrentIndexProgressive = { (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
+//            guard changeCurrentIndex == true else { return }
+//            oldCell?.label.textColor = UIColor(red: 138/255.0, green: 138/255.0, blue: 144/255.0, alpha: 1.0)
+//            newCell?.label.textColor = .white
+//        }
         super.viewDidLoad()
-        navigationController?.navigationBar.shadowImage = UIImage()
-        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+//        navigationController?.navigationBar.shadowImage = UIImage()
+//        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
 
        
     }
     
-   
+
     
     
     /*

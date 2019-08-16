@@ -1,24 +1,28 @@
 PODS:
   - Alamofire (5.0.0-beta.7)
+  - SwiftyJSON (4.3.0)
   - TextFieldEffects (1.6.0)
   - XLPagerTabStrip (9.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-beta.5)
+  - SwiftyJSON (~> 4.0)
   - TextFieldEffects
   - XLPagerTabStrip (~> 9.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - SwiftyJSON
     - TextFieldEffects
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
   Alamofire: bd07938ceecad59d2492aeecb1f785a8f2721160
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
   XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
 
-PODFILE CHECKSUM: d4fda0e58e678bfe1a0c65da21380c2f561fd31d
+PODFILE CHECKSUM: 2954bb2c22d7af822e124f38b822ae40d64f3385
 
 COCOAPODS: 1.7.3
